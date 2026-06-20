@@ -1,0 +1,30 @@
+algoritmo semNome; 
+
+principal
+//declara variaveis
+
+inteiro vetor [5] ;
+inteiro i ; 
+inteiro menorValor;
+
+// Guarda valores no vetor
+vetor [0] = 20;
+vetor [1] = 40;
+vetor [2] = 10;
+vetor [3] = 60;
+vetor [4] = 50
+
+//mostra conteudo do vetor
+para (i de 0 ate 4 passo 1) faca;
+escreva ("na posicao", i, "do vetor temos o valor", vetor{i});
+fimPara
+
+//Determina o menor valor
+menorValor = vetor[0];
+para (i de 1 ate 4 passo 1) faca
+se ( vetor[i] < menorValor ) entao
+menor Valor = vetor[i]/
+fimSe
+fimPara
+escreval ("O menor elemento do vetor =", menor Valor);
+fimPrincipal
