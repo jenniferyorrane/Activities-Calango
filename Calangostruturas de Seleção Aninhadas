@@ -1,0 +1,27 @@
+algoritmo semNome; 
+
+principal
+//declara variaveis
+inteiro a ;
+
+//rsolicita valor para o usuário
+escreve ("Entre com o valor de a: ");
+leia ( a );
+
+//efeitua operacao
+
+se (a < 15) entao
+escreva ("Executa 1" );
+se (a < 30) entao
+escreva ("Executa 2" );
+se (a < 45) entao
+escreva ("Executa 3" );
+se (a < 60) entao
+escreva ("Executa 4" );
+senao 
+escreva ("Executa 4" );
+fimSe
+fimSe
+fimSe
+fimSe
+fimSePrincipal
