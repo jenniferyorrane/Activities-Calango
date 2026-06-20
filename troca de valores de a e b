@@ -1,0 +1,23 @@
+algoritmo semNome; 
+
+principal
+//declara variaveis
+
+inteiro a, b;
+
+//solicita valores para as variaveis
+escreva ("Entre com o valor de a:");
+leia (a);
+
+escreva ("Entre com o valor de b:");
+leia (b);
+
+//efetua operacao
+a = a + b;
+b = a - b;
+a = a - b;
+
+//mostra resultados
+escreval("Depois da operacao o valor de a=", a);
+escreval("Depois da operacao o valor de b=" b);
+fimPrincipal
